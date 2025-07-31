@@ -16,7 +16,7 @@ packages = "pyhscodes"
 
 [tool.poetry]
 name = "pyhscodes"
-version = "1.0.0"
+version = "1.0.1"
 description = "Harmonized System (HS) codes from the World Customs Organization with hierarchical structure and search capabilities"
 authors = ["David Sigley <david@coolset.com>"]
 maintainers = [
