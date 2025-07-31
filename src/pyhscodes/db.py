@@ -108,7 +108,9 @@ class Database:
                 if key in self.no_index:
                     continue
                 # Lookups and searches are case insensitive. Normalize
-                # here.
+                # here. Skip non-string values.
+                if not isinstance(value, str):
+                    continue
                 index = self.indices.setdefault(key, {})
                 value = value.lower()
                 if value in index:
@@ -135,6 +137,9 @@ class Database:
         for key, value in kw.items():
             if key in self.no_index:
                 continue
+            # Skip non-string values
+            if not isinstance(value, str):
+                continue
             value = value.lower()
             index = self.indices.setdefault(key, {})
             index[value] = obj
@@ -156,6 +161,9 @@ class Database:
         # update indices
         for key, value in obj:
             if key in self.no_index:
+                continue
+            # Skip non-string values
+            if not isinstance(value, str):
                 continue
             value = value.lower()
             index = self.indices.setdefault(key, {})
@@ -210,6 +218,9 @@ class Database:
             for k in self.no_index:
                 v = candidate._fields.get(k)
                 if v is None:
+                    continue
+                # Skip non-string values
+                if not isinstance(v, str):
                     continue
                 if v.lower() == value:
                     return candidate
