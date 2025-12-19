@@ -3,7 +3,7 @@
 Convert HS codes and sections CSV data to JSON format for pyhscodes database.
 
 This script expects two CSV files:
-1. harmonized-system.csv with columns: section,hscode,description,parent,level
+1. harmonized-system-with-standards.csv with columns: section,hscode,,description,parent,level,EUDR,EUTR,CBAM
 2. sections.csv with columns: section,name
 
 It will generate:
@@ -16,7 +16,13 @@ import json
 import os
 from pathlib import Path
 
+
 # TODO: ensure script finds and updates entries rather than overwriting them so that we don't lose standards and commodity information
+def str_to_bool(value: str) -> bool:
+    """Convert string TRUE/FALSE to Python boolean."""
+    return value.upper() == "TRUE"
+
+
 def convert_hscodes_csv_to_json(csv_file: str, json_file: str):
     """Convert HS codes CSV to JSON format."""
     hscodes = []
@@ -30,6 +36,9 @@ def convert_hscodes_csv_to_json(csv_file: str, json_file: str):
                 "description": row["description"],
                 "parent": row["parent"],
                 "level": row["level"],
+                "EUDR": str_to_bool(row.get("EUDR", "FALSE")),
+                "EUTR": str_to_bool(row.get("EUTR", "FALSE")),
+                "CBAM": str_to_bool(row.get("CBAM", "FALSE")),
             }
             hscodes.append(hscode_entry)
 
@@ -89,7 +98,7 @@ def main():
     databases_dir = base_dir / "src" / "pyhscodes" / "databases"
 
     # Input CSV files (expected to be in the project root)
-    hscodes_csv = base_dir / "harmonized-system.csv"
+    hscodes_csv = base_dir / "harmonized-system-with-standards.csv"
     sections_csv = base_dir / "sections.csv"
 
     # Output JSON files
@@ -100,9 +109,11 @@ def main():
     if not hscodes_csv.exists():
         print(f"Error: {hscodes_csv} not found.")
         print(
-            "Please place your HS codes CSV file in the project root as 'harmonized-system.csv'"
+            "Please place your HS codes CSV file in the project root as 'harmonized-system-with-standards.csv'"
         )
-        print("Expected columns: section,hscode,description,parent,level")
+        print(
+            "Expected columns: section,hscode,,description,parent,level,EUDR,EUTR,CBAM"
+        )
         return 1
 
     if not sections_csv.exists():
