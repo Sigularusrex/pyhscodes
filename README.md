@@ -60,6 +60,9 @@ The main database of HS codes.
 - `section`: Which section this code belongs to
 - `parent`: Parent code in the hierarchy
 - `level`: Code level ("2", "4", or "6")
+- `EUDR`: Boolean indicating EU Deforestation Regulation applicability
+- `EUTR`: Boolean indicating EU Timber Regulation applicability
+- `CBAM`: Boolean indicating Carbon Border Adjustment Mechanism applicability
 - `is_chapter`: True if this is a 2-digit chapter
 - `is_heading`: True if this is a 4-digit heading  
 - `is_subheading`: True if this is a 6-digit subheading
@@ -128,13 +131,30 @@ pytest src/pyhscodes/tests/
 To update the HS codes database:
 
 1. Place your CSV files in the project root:
-   - `harmonized-system.csv` (columns: section, hscode, description, parent, level)
+   - `harmonized-system-with-standards.csv` (columns: section, hscode, description, parent, level, EUDR, EUTR, CBAM)
    - `sections.csv` (columns: section, name)
 
 2. Run the conversion script:
    ```bash
    python convert_csv_to_json.py
    ```
+
+## Changelog
+
+### 2.0.0 (Breaking Change)
+
+- **Added regulatory standard flags**: Each HS code now includes boolean fields for EU regulatory standards:
+  - `EUDR`: EU Deforestation Regulation applicability
+  - `EUTR`: EU Timber Regulation applicability  
+  - `CBAM`: Carbon Border Adjustment Mechanism applicability
+- **Data source changed**: Now uses `harmonized-system-with-standards.csv` instead of `harmonized-system.csv`
+- **Breaking**: HS code entries now have additional fields that may affect serialization or data processing
+
+### 1.0.x
+
+- Initial release with core HS code database
+- Hierarchical navigation and fuzzy search
+- Section support
 
 ## License
 
