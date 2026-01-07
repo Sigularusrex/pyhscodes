@@ -50,6 +50,7 @@ def convert_hscodes_csv_to_json(csv_file: str, json_file: str):
                 "description": row["description"],
                 "parent": row["parent"],
                 "level": row["level"],
+                "commodity": row["commodity"],
                 "standards": standards,
             }
 
@@ -115,7 +116,7 @@ def main():
     databases_dir = base_dir / "src" / "pyhscodes" / "databases"
 
     # Input CSV files (expected to be in the project root)
-    hscodes_csv = base_dir / "harmonized-system-with-standards.csv"
+    hscodes_csv = base_dir / "harmonized-system-jan-26.csv"
     sections_csv = base_dir / "sections.csv"
 
     # Output JSON files
