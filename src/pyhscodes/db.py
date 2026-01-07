@@ -52,6 +52,25 @@ class HSCode(Data):
         """Returns True if this is a 6-digit subheading code."""
         return self.level == "6"
 
+    @property
+    def section_info(self) -> Optional["Section"]:
+        """Returns the full Section object for this HS code."""
+        import pyhscodes
+
+        return pyhscodes.sections.get(section=self.section)
+
+    @property
+    def section_name(self) -> Optional[str]:
+        """Returns the name of the section this HS code belongs to."""
+        section = self.section_info
+        return section.name if section else None
+
+    @property
+    def section_display_name(self) -> Optional[str]:
+        """Returns the display name of the section this HS code belongs to."""
+        section = self.section_info
+        return getattr(section, "display_name", None) if section else None
+
 
 class Section(Data):
     """Represents a major section grouping of HS codes."""

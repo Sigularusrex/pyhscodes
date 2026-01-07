@@ -5,6 +5,7 @@ A Python package for working with Harmonized System (HS) codes from the World Cu
 ## Features
 
 - **Complete HS Code Database**: Contains 6,940+ HS codes with full hierarchical structure
+- **Regulatory Standards**: Built-in support for EUDR, EUTR, and CBAM with extensible standards framework
 - **Section Support**: All 21 HS code sections with descriptions
 - **Hierarchical Navigation**: Navigate from chapters (2-digit) to headings (4-digit) to subheadings (6-digit)
 - **Fuzzy Search**: Find codes by description text
@@ -29,6 +30,7 @@ print(f"Total sections: {len(pyhscodes.sections)}")
 # Get a specific code
 animals = pyhscodes.hscodes.get(hscode="01")
 print(f"{animals.hscode}: {animals.description}")
+print(f"Section: {animals.section_name}")  # "live animals; animal products"
 
 # Get children of a code
 children = pyhscodes.hscodes.get_children("01")
@@ -44,6 +46,11 @@ for code in hierarchy:
 results = pyhscodes.hscodes.search_fuzzy("dairy")
 for result in results[:3]:
     print(f"{result.hscode}: {result.description}")
+
+# Check regulatory standards
+timber = pyhscodes.hscodes.get(hscode="4401")
+print(f"Standards: {timber.standards}")  # e.g., ["EUDR", "EUTR"]
+print(f"EUDR applicable: {timber.EUDR}")
 ```
 
 ## API Reference
@@ -57,9 +64,13 @@ The main database of HS codes.
 **Properties:**
 - `hscode`: The HS code (e.g., "010121")
 - `description`: Description of the code
-- `section`: Which section this code belongs to
+- `section`: Section identifier (e.g., "I", "II")
+- `section_info`: Full Section object with all section data
+- `section_name`: Full name of the section
+- `section_display_name`: Short display name for the section
 - `parent`: Parent code in the hierarchy
 - `level`: Code level ("2", "4", or "6")
+- `standards`: List of applicable regulatory standards (e.g., `["EUDR", "CBAM"]`)
 - `EUDR`: Boolean indicating EU Deforestation Regulation applicability
 - `EUTR`: Boolean indicating EU Timber Regulation applicability
 - `CBAM`: Boolean indicating Carbon Border Adjustment Mechanism applicability
@@ -143,10 +154,13 @@ To update the HS codes database:
 
 ### 2.0.0 (Breaking Change)
 
+- **Added section lookup properties**: HS codes now include `section_info`, `section_name`, and `section_display_name` for easy access to section data
+- **Added `standards` array**: Each HS code now includes a `standards` list containing the names of applicable regulatory standards (e.g., `["EUDR", "CBAM"]`)
 - **Added regulatory standard flags**: Each HS code now includes boolean fields for EU regulatory standards:
   - `EUDR`: EU Deforestation Regulation applicability
   - `EUTR`: EU Timber Regulation applicability  
   - `CBAM`: Carbon Border Adjustment Mechanism applicability
+- **Extensible standards**: New standards can be added by including uppercase columns in the CSV source
 - **Data source changed**: Now uses `harmonized-system-with-standards.csv` instead of `harmonized-system.csv`
 - **Breaking**: HS code entries now have additional fields that may affect serialization or data processing
 

@@ -23,23 +23,40 @@ def str_to_bool(value: str) -> bool:
     return value.upper() == "TRUE"
 
 
+def is_standard_column(column_name: str) -> bool:
+    """Check if a column is a standard column (all uppercase letters)."""
+    return column_name.isupper() and column_name.isalpha()
+
+
 def convert_hscodes_csv_to_json(csv_file: str, json_file: str):
     """Convert HS codes CSV to JSON format."""
     hscodes = []
 
     with open(csv_file, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
+        # Get the fieldnames to identify standard columns (all caps)
+        fieldnames = reader.fieldnames or []
+        standard_columns = [col for col in fieldnames if is_standard_column(col)]
+
         for row in reader:
+            # Build standards array with names of standards that are TRUE
+            standards = [
+                col for col in standard_columns if str_to_bool(row.get(col, "FALSE"))
+            ]
+
             hscode_entry = {
                 "section": row["section"],
                 "hscode": row["hscode"],
                 "description": row["description"],
                 "parent": row["parent"],
                 "level": row["level"],
-                "EUDR": str_to_bool(row.get("EUDR", "FALSE")),
-                "EUTR": str_to_bool(row.get("EUTR", "FALSE")),
-                "CBAM": str_to_bool(row.get("CBAM", "FALSE")),
+                "standards": standards,
             }
+
+            # Also add individual boolean fields for each standard
+            for col in standard_columns:
+                hscode_entry[col] = str_to_bool(row.get(col, "FALSE"))
+
             hscodes.append(hscode_entry)
 
     # Create the JSON structure expected by the database

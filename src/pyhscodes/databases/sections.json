@@ -2,87 +2,108 @@
   "sections": [
     {
       "section": "I",
-      "name": "live animals; animal products"
+      "name": "live animals; animal products",
+      "display_name": "cattle"
     },
     {
       "section": "II",
-      "name": "Vegetable products"
+      "name": "Vegetable products",
+      "display_name": "vegetables"
     },
     {
       "section": "III",
-      "name": "Animal or vegetable fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes"
+      "name": "Animal or vegetable fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",
+      "display_name": "palm_oil"
     },
     {
       "section": "IV",
-      "name": "Prepared foodstuffs; beverages, spirits and vinegar; tobacco and manufactured tobacco substitutes"
+      "name": "Prepared foodstuffs; beverages, spirits and vinegar; tobacco and manufactured tobacco substitutes",
+      "display_name": "food_beverages"
     },
     {
       "section": "V",
-      "name": "Mineral products"
+      "name": "Mineral products",
+      "display_name": "minerals"
     },
     {
       "section": "VI",
-      "name": "Products of the chemical or allied industries"
+      "name": "Products of the chemical or allied industries",
+      "display_name": "chemicals"
     },
     {
       "section": "VII",
-      "name": "Plastics and articles thereof; rubber and articles thereof "
+      "name": "Plastics and articles thereof; rubber and articles thereof ",
+      "display_name": "rubber"
     },
     {
       "section": "VIII",
-      "name": "Raw hides and skins, leather, furskins and articles thereof; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)"
+      "name": "Raw hides and skins, leather, furskins and articles thereof; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",
+      "display_name": "leather"
     },
     {
       "section": "IX",
-      "name": "Wood and articles of wood; wood charcoal; cork and articles of cork; manufactures of straw, of esparto or of other plaiting materials; basketware and wickerwork"
+      "name": "Wood and articles of wood; wood charcoal; cork and articles of cork; manufactures of straw, of esparto or of other plaiting materials; basketware and wickerwork",
+      "display_name": "wood"
     },
     {
       "section": "X",
-      "name": "Pulp of wood or of other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard; paper and paperboard and articles thereof"
+      "name": "Pulp of wood or of other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard; paper and paperboard and articles thereof",
+      "display_name": "paper"
     },
     {
       "section": "XI",
-      "name": "Textiles and textile articles"
+      "name": "Textiles and textile articles",
+      "display_name": "textiles"
     },
     {
       "section": "XII",
-      "name": "Footwear, headgear, umbrellas, sun umbrellas, walking-sticks, seat-sticks, whips, riding-crops and parts thereof; prepared feathers and articles made therewith; artificial flowers; articles of human hair"
+      "name": "Footwear, headgear, umbrellas, sun umbrellas, walking-sticks, seat-sticks, whips, riding-crops and parts thereof; prepared feathers and articles made therewith; artificial flowers; articles of human hair",
+      "display_name": "footwear_accessories"
     },
     {
       "section": "XIII",
-      "name": "Articles of stone, plaster, cement, asbestos, mica or similar materials; ceramic products; glass and glassware"
+      "name": "Articles of stone, plaster, cement, asbestos, mica or similar materials; ceramic products; glass and glassware",
+      "display_name": "stone_ceramics"
     },
     {
       "section": "XIV",
-      "name": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal and articles thereof; imitation jewellery; coin"
+      "name": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal and articles thereof; imitation jewellery; coin",
+      "display_name": "precious_metals"
     },
     {
       "section": "XV",
-      "name": "Base metals and articles of base metal"
+      "name": "Base metals and articles of base metal",
+      "display_name": "base_metals"
     },
     {
       "section": "XVI",
-      "name": "Machinery and mechanical appliances; electrical equipment; parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles"
+      "name": "Machinery and mechanical appliances; electrical equipment; parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
+      "display_name": "machinery"
     },
     {
       "section": "XVII",
-      "name": "Vehicles, aircraft, vessels and associated transport equipment"
+      "name": "Vehicles, aircraft, vessels and associated transport equipment",
+      "display_name": "vehicles"
     },
     {
       "section": "XVIII",
-      "name": "Optical, photographic, cinematographic, measuring, checking, precision, medical or surgical instruments and apparatus; clocks and watches; musical instruments; parts and accessories thereof"
+      "name": "Optical, photographic, cinematographic, measuring, checking, precision, medical or surgical instruments and apparatus; clocks and watches; musical instruments; parts and accessories thereof",
+      "display_name": "instruments"
     },
     {
       "section": "XIX",
-      "name": "Arms and ammunition; parts and accessories thereof"
+      "name": "Arms and ammunition; parts and accessories thereof",
+      "display_name": "arms"
     },
     {
       "section": "XX",
-      "name": "Miscellaneous manufactured articles"
+      "name": "Miscellaneous manufactured articles",
+      "display_name": "miscellaneous"
     },
     {
       "section": "XXI",
-      "name": "Works of art, collectors' pieces and antiques"
+      "name": "Works of art, collectors' pieces and antiques",
+      "display_name": "art"
     }
   ]
 }
