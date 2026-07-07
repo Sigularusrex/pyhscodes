@@ -116,7 +116,7 @@ def main():
     databases_dir = base_dir / "src" / "pyhscodes" / "databases"
 
     # Input CSV files (expected to be in the project root)
-    hscodes_csv = base_dir / "harmonized-system-jan-26.csv"
+    hscodes_csv = base_dir / "harmonized-system-harmonized-system-jul-2026.csv"
     sections_csv = base_dir / "sections.csv"
 
     # Output JSON files
