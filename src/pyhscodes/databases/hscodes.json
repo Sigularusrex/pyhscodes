@@ -98,10 +98,9 @@
       "level": "4",
       "commodity": "cattle",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -146,10 +145,9 @@
       "level": "6",
       "commodity": "animals",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -162,10 +160,9 @@
       "level": "6",
       "commodity": "animals",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -178,10 +175,9 @@
       "level": "6",
       "commodity": "animals",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -1057,10 +1053,9 @@
       "level": "4",
       "commodity": "meat",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -11360,10 +11355,9 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -11527,10 +11521,9 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -13020,10 +13013,9 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -13593,10 +13585,9 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -17304,10 +17295,9 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -18101,12 +18091,11 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -19369,11 +19358,12 @@
       "level": "6",
       "commodity": "",
       "standards": [
+        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": false,
+      "CBAM": true,
       "PPWR": true
     },
     {
@@ -21246,12 +21236,11 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -21278,12 +21267,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -21294,12 +21282,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -21310,12 +21297,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -21326,12 +21312,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -21342,12 +21327,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -21358,12 +21342,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -21374,12 +21357,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -21390,12 +21372,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -21406,12 +21387,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -21422,12 +21402,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -23333,12 +23312,11 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -23349,12 +23327,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -23381,12 +23358,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -25722,10 +25698,9 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -27134,10 +27109,9 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -32614,12 +32588,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -37011,10 +36984,9 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -37746,7 +37718,7 @@
     {
       "section": "VI",
       "hscode": "382762",
-      "description": "Mixtures containing halogenated derivatives of methane, ethane or propane; containing other hydrofluorocarbons (HFCs) but not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); other mixtures, not included in the subheading above, ",
+      "description": "Mixtures containing halogenated derivatives of methane, ethane or propane; containing other hydrofluorocarbons (HFCs) but not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); other mixtures, not included in the subheading above,",
       "parent": "3827",
       "level": "6",
       "commodity": "",
@@ -37761,7 +37733,7 @@
     {
       "section": "VI",
       "hscode": "382763",
-      "description": "Mixtures containing halogenated derivatives of methane, ethane or propane; containing other hydrofluorocarbons (HFCs) but not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); other mixtures not included in the subheadings above, ",
+      "description": "Mixtures containing halogenated derivatives of methane, ethane or propane; containing other hydrofluorocarbons (HFCs) but not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); other mixtures not included in the subheadings above,",
       "parent": "3827",
       "level": "6",
       "commodity": "",
@@ -37821,7 +37793,7 @@
     {
       "section": "VI",
       "hscode": "382769",
-      "description": "Mixtures containing halogenated derivatives of methane, ethane or propane; containing other hydrofluorocarbons (HFCs) but not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); n.e.c. in items no. 3827.5 and 3827.6, not containing ",
+      "description": "Mixtures containing halogenated derivatives of methane, ethane or propane; containing other hydrofluorocarbons (HFCs) but not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); n.e.c. in items no. 3827.5 and 3827.6, not containing",
       "parent": "3827",
       "level": "6",
       "commodity": "",
@@ -43158,9 +43130,10 @@
       "level": "2",
       "commodity": "",
       "standards": [
+        "EUDR",
         "PPWR"
       ],
-      "EUDR": false,
+      "EUDR": true,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -43796,11 +43769,10 @@
       "commodity": "",
       "standards": [
         "EUDR",
-        "EUTR",
         "PPWR"
       ],
       "EUDR": true,
-      "EUTR": true,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -43813,11 +43785,10 @@
       "commodity": "wood",
       "standards": [
         "EUDR",
-        "EUTR",
         "PPWR"
       ],
       "EUDR": true,
-      "EUTR": true,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -46073,10 +46044,11 @@
       "commodity": "",
       "standards": [
         "EUDR",
+        "EUTR",
         "PPWR"
       ],
       "EUDR": true,
-      "EUTR": false,
+      "EUTR": true,
       "CBAM": false,
       "PPWR": true
     },
@@ -46394,12 +46366,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -46411,12 +46381,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -46479,12 +46447,10 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -46496,12 +46462,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -46513,12 +46477,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -46530,12 +46492,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -46547,12 +46507,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -46565,10 +46523,11 @@
       "commodity": "",
       "standards": [
         "EUDR",
+        "EUTR",
         "PPWR"
       ],
       "EUDR": true,
-      "EUTR": false,
+      "EUTR": true,
       "CBAM": false,
       "PPWR": true
     },
@@ -47141,12 +47100,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -47158,12 +47115,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -48603,12 +48558,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -48671,10 +48624,9 @@
       "level": "2",
       "commodity": "",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -48687,12 +48639,10 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -48704,12 +48654,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -48721,12 +48669,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -48738,12 +48684,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -48755,10 +48699,9 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -48771,10 +48714,9 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -48787,10 +48729,9 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -48803,12 +48744,10 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -48820,12 +48759,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -48837,10 +48774,9 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -48853,10 +48789,9 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -48869,10 +48804,9 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -48885,10 +48819,9 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -48901,10 +48834,9 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -48917,12 +48849,10 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -48934,12 +48864,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -48951,12 +48879,10 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -48968,12 +48894,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -48985,12 +48909,10 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -49002,12 +48924,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -49019,12 +48939,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -49036,12 +48954,10 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -49053,12 +48969,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -49070,12 +48984,10 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -49087,12 +48999,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -49104,12 +49014,10 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -49121,12 +49029,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -49138,12 +49044,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -49155,12 +49059,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -68920,12 +68822,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -68936,12 +68837,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -68952,12 +68852,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -69000,12 +68899,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -69032,12 +68930,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -69048,12 +68945,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -69064,12 +68960,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -69080,12 +68975,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -69096,12 +68990,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -69112,12 +69005,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -69176,12 +69068,11 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -69192,12 +69083,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -69208,12 +69098,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -69224,12 +69113,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -69240,12 +69128,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -69256,12 +69143,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -69272,12 +69158,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -69288,12 +69173,11 @@
       "level": "6",
       "commodity": "",
       "standards": [
-        "CBAM",
         "PPWR"
       ],
       "EUDR": false,
       "EUTR": false,
-      "CBAM": true,
+      "CBAM": false,
       "PPWR": true
     },
     {
@@ -102181,12 +102065,10 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102198,12 +102080,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102215,12 +102095,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102233,11 +102111,10 @@
       "commodity": "wood",
       "standards": [
         "EUDR",
-        "EUTR",
         "PPWR"
       ],
       "EUDR": true,
-      "EUTR": true,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102249,12 +102126,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102267,11 +102142,10 @@
       "commodity": "wood",
       "standards": [
         "EUDR",
-        "EUTR",
         "PPWR"
       ],
       "EUDR": true,
-      "EUTR": true,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102283,12 +102157,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102300,12 +102172,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102317,12 +102187,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102334,12 +102202,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102352,11 +102218,10 @@
       "commodity": "wood",
       "standards": [
         "EUDR",
-        "EUTR",
         "PPWR"
       ],
       "EUDR": true,
-      "EUTR": true,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102369,11 +102234,10 @@
       "commodity": "wood",
       "standards": [
         "EUDR",
-        "EUTR",
         "PPWR"
       ],
       "EUDR": true,
-      "EUTR": true,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102385,12 +102249,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102402,12 +102264,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102419,12 +102279,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102437,11 +102295,10 @@
       "commodity": "wood",
       "standards": [
         "EUDR",
-        "EUTR",
         "PPWR"
       ],
       "EUDR": true,
-      "EUTR": true,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102453,12 +102310,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102515,12 +102370,10 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102532,11 +102385,10 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUTR",
         "PPWR"
       ],
       "EUDR": false,
-      "EUTR": true,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102548,11 +102400,10 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUTR",
         "PPWR"
       ],
       "EUDR": false,
-      "EUTR": true,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102632,11 +102483,10 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUTR",
         "PPWR"
       ],
       "EUDR": false,
-      "EUTR": true,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102648,11 +102498,10 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUTR",
         "PPWR"
       ],
       "EUDR": false,
-      "EUTR": true,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102664,11 +102513,10 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUTR",
         "PPWR"
       ],
       "EUDR": false,
-      "EUTR": true,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102680,11 +102528,10 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUTR",
         "PPWR"
       ],
       "EUDR": false,
-      "EUTR": true,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -102713,11 +102560,10 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUTR",
         "PPWR"
       ],
       "EUDR": false,
-      "EUTR": true,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -103074,12 +102920,10 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -103108,12 +102952,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
@@ -103125,12 +102967,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
-        "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
-      "EUTR": true,
+      "EUDR": false,
+      "EUTR": false,
       "CBAM": false,
       "PPWR": true
     },
