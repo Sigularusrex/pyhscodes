@@ -5,12 +5,12 @@ I,010121,,"Horses; live, pure-bred breeding animals",0101,6,animals,FALSE,FALSE,
 I,010129,,"Horses; live, other than pure-bred breeding animals",0101,6,animals,FALSE,FALSE,FALSE,TRUE
 I,010130,,Asses; live,0101,6,animals,FALSE,FALSE,FALSE,TRUE
 I,010190,,Mules and hinnies; live,0101,6,animals,FALSE,FALSE,FALSE,TRUE
-I,0102,,Bovine animals; live,01,4,cattle,TRUE,FALSE,FALSE,TRUE
+I,0102,,Bovine animals; live,01,4,cattle,FALSE,FALSE,FALSE,TRUE
 I,010221,,"Cattle; live, pure-bred breeding animals",0102,6,cattle,TRUE,FALSE,FALSE,TRUE
 I,010229,,"Cattle; live, other than pure-bred breeding animals",0102,6,cattle,TRUE,FALSE,FALSE,TRUE
-I,010231,,"Buffalo; live, pure-bred breeding animals",0102,6,animals,TRUE,FALSE,FALSE,TRUE
-I,010239,,"Buffalo; live, other than pure-bred breeding animals",0102,6,animals,TRUE,FALSE,FALSE,TRUE
-I,010290,,"Bovine animals; live, other than cattle and buffalo",0102,6,animals,TRUE,FALSE,FALSE,TRUE
+I,010231,,"Buffalo; live, pure-bred breeding animals",0102,6,animals,FALSE,FALSE,FALSE,TRUE
+I,010239,,"Buffalo; live, other than pure-bred breeding animals",0102,6,animals,FALSE,FALSE,FALSE,TRUE
+I,010290,,"Bovine animals; live, other than cattle and buffalo",0102,6,animals,FALSE,FALSE,FALSE,TRUE
 I,0103,,Swine; live,01,4,animals,FALSE,FALSE,FALSE,TRUE
 I,010310,,"Swine; live, pure-bred breeding animals",0103,6,animals,FALSE,FALSE,FALSE,TRUE
 I,010391,,"Swine; live, other than pure-bred breeding animals, weighing less than 50kg",0103,6,animals,FALSE,FALSE,FALSE,TRUE
@@ -68,7 +68,7 @@ I,020443,,"Meat; of sheep (including lamb), boneless cuts, frozen",0204,6,meat,F
 I,020450,,"Meat; of goats, fresh, chilled or frozen",0204,6,meat,FALSE,FALSE,FALSE,TRUE
 I,0205,,"Meat; of horses, asses, mules or hinnies, fresh, chilled or frozen",02,4,meat,FALSE,FALSE,FALSE,TRUE
 I,020500,,"Meat; of horses, asses, mules or hinnies, fresh, chilled or frozen",0205,6,meat,FALSE,FALSE,FALSE,TRUE
-I,0206,,"Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies; fresh, chilled or frozen",02,4,meat,TRUE,FALSE,FALSE,TRUE
+I,0206,,"Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies; fresh, chilled or frozen",02,4,meat,FALSE,FALSE,FALSE,TRUE
 I,020610,,"Offal, edible; of bovine animals, fresh or chilled",0206,6,cattle,TRUE,FALSE,FALSE,TRUE
 I,020621,,"Offal, edible; of bovine animals, tongues, frozen",0206,6,meat,FALSE,FALSE,FALSE,TRUE
 I,020622,,"Offal, edible; of bovine animals, livers, frozen",0206,6,cattle,TRUE,FALSE,FALSE,TRUE
@@ -754,7 +754,7 @@ II,120510,,"Oil seeds; low erucic acid rape or colza seeds, whether or not broke
 II,120590,,"Oil seeds; rape or colza seeds, other than low erucic, whether or not broken",1205,6,,FALSE,FALSE,FALSE,TRUE
 II,1206,,Sunflower seeds; whether or not broken,12,4,,FALSE,FALSE,FALSE,TRUE
 II,120600,,"Oil seeds; sunflower seeds, whether or not broken",1206,6,,FALSE,FALSE,FALSE,TRUE
-II,1207,,"Oil seeds and oleaginous fruits, n.e.c. in chapter 12; whether or not broken",12,4,,TRUE,FALSE,FALSE,TRUE
+II,1207,,"Oil seeds and oleaginous fruits, n.e.c. in chapter 12; whether or not broken",12,4,,FALSE,FALSE,FALSE,TRUE
 II,120710,,"Oil seeds; palm nuts and kernels, whether or not broken",1207,6,palm_oil,TRUE,FALSE,FALSE,TRUE
 II,120721,,"Oil seeds; cotton seeds, seed, whether or not broken",1207,6,rubber,FALSE,FALSE,FALSE,TRUE
 II,120729,,"Oil seeds; cotton seeds, other than seed, whether or not broken",1207,6,rubber,FALSE,FALSE,FALSE,TRUE
@@ -765,7 +765,7 @@ II,120760,,"Oil seeds; safflower (Carthamus tinctorius) seeds, whether or not br
 II,120770,,"Oil seeds; melon seeds, whether or not broken",1207,6,rubber,FALSE,FALSE,FALSE,TRUE
 II,120791,,"Oil seeds; poppy seeds, whether or not broken",1207,6,rubber,FALSE,FALSE,FALSE,TRUE
 II,120799,,"Oil seeds and oleaginous fruits; n.e.c. in heading no. 1207, whether or not broken",1207,6,rubber,FALSE,FALSE,FALSE,TRUE
-II,1208,,Flours and meals of oil seeds or oleaginous fruits; other than those of mustard,12,4,,TRUE,FALSE,FALSE,TRUE
+II,1208,,Flours and meals of oil seeds or oleaginous fruits; other than those of mustard,12,4,,FALSE,FALSE,FALSE,TRUE
 II,120810,,Flours and meals; of soya beans,1208,6,soya,TRUE,FALSE,FALSE,TRUE
 II,120890,,Flours and meals of oil seeds or oleaginous fruits; excluding soya beans and mustard seeds,1208,6,rubber,FALSE,FALSE,FALSE,TRUE
 II,1209,,"Seeds, fruit and spores; of a kind used for sowing",12,4,,FALSE,FALSE,FALSE,TRUE
@@ -864,7 +864,7 @@ III,151211,,"Vegetable oils; sunflower seed or safflower oil and their fractions
 III,151219,,"Vegetable oils; sunflower seed or safflower oil and their fractions, other than crude, whether or not refined, but not chemically modified",1512,6,,FALSE,FALSE,FALSE,TRUE
 III,151221,,"Vegetable oils; cotton-seed oil and its fractions; crude, whether or not gossypol has been removed, not chemically modified",1512,6,,FALSE,FALSE,FALSE,TRUE
 III,151229,,"Vegetable oils; cotton-seed oil and its fractions, other than crude, whether or not refined, but not chemically modified",1512,6,,FALSE,FALSE,FALSE,TRUE
-III,1513,,"Coconut (copra), palm kernel or babassu oil and their fractions; whether or not refined but not chemically modified",15,4,,TRUE,FALSE,FALSE,TRUE
+III,1513,,"Coconut (copra), palm kernel or babassu oil and their fractions; whether or not refined but not chemically modified",15,4,,FALSE,FALSE,FALSE,TRUE
 III,151311,,"Vegetable oils; coconut (copra) oil and its fractions, crude, not chemically modified",1513,6,rubber,FALSE,FALSE,FALSE,TRUE
 III,151319,,"Vegetable oils; coconut (copra) oil and its fractions, other than crude, whether or not refined, but not chemically modified",1513,6,rubber,FALSE,FALSE,FALSE,TRUE
 III,151321,,"Vegetable oils; palm kernel or babassu oil and their fractions, crude, not chemically modified",1513,6,palm_oil,TRUE,FALSE,FALSE,TRUE
@@ -902,7 +902,7 @@ III,152200,,Degras; residues resulting from the treatment of fatty substances or
 IV,16,,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",TOTAL,2,,FALSE,FALSE,FALSE,TRUE
 IV,1601,,"Sausages and similar products, of meat, meat offal, blood or insects; food preparations based on these products",16,4,,FALSE,FALSE,FALSE,TRUE
 IV,160100,,"Meat preparations; sausages and similar products, of meat, meat offal, blood or insects, and food preparations based on these products",1601,6,,FALSE,FALSE,FALSE,TRUE
-IV,1602,,"Prepared or preserved meat, meat offal, blood or insects",16,4,,TRUE,FALSE,FALSE,TRUE
+IV,1602,,"Prepared or preserved meat, meat offal, blood or insects",16,4,,FALSE,FALSE,FALSE,TRUE
 IV,160210,,"Meat preparations; homogenised preparations of meat, meat offal blood or insects",1602,6,rubber,FALSE,FALSE,FALSE,TRUE
 IV,160220,,Meat preparations; of the prepared or preserved liver of any animal (excluding homogenised preparations),1602,6,rubber,FALSE,FALSE,FALSE,TRUE
 IV,160231,,"Meat preparations; of turkeys, prepared or preserved meat or meat offal (excluding livers and homogenised preparations)",1602,6,rubber,FALSE,FALSE,FALSE,TRUE
@@ -1148,7 +1148,7 @@ IV,2304,,"Oil-cake and other solid residues; whether or not ground or in the for
 IV,230400,,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",2304,6,soya,TRUE,FALSE,FALSE,TRUE
 IV,2305,,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of ground-nut oil",23,4,,FALSE,FALSE,FALSE,TRUE
 IV,230500,,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of ground-nut oil",2305,6,,FALSE,FALSE,FALSE,TRUE
-IV,2306,,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of vegetable or microbial fats or oils, other than those of heading no. 2304 or 2305",23,4,,TRUE,FALSE,FALSE,TRUE
+IV,2306,,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of vegetable or microbial fats or oils, other than those of heading no. 2304 or 2305",23,4,,FALSE,FALSE,FALSE,TRUE
 IV,230610,,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of cotton seed oils",2306,6,rubber,FALSE,FALSE,FALSE,TRUE
 IV,230620,,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of linseed oils",2306,6,rubber,FALSE,FALSE,FALSE,TRUE
 IV,230630,,"Oil-cake and other solid residues; whether or not ground or in the form of pellets, resulting from the extraction of sunflower seed oils",2306,6,rubber,FALSE,FALSE,FALSE,TRUE
@@ -1201,7 +1201,7 @@ V,250590,,"Sands; natural, (other than silica and quartz sands), whether or not 
 V,2506,,"Quartz; (other than natural sands), quartzite, whether or not roughly trimmed or merely cut, by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape",25,4,,FALSE,FALSE,FALSE,TRUE
 V,250610,,Quartz; other than natural sands,2506,6,,FALSE,FALSE,FALSE,TRUE
 V,250620,,"Quartzite; whether or not roughly trimmed or merely cut, by sawing or otherwise, into blocks or slabs of a rectangular (including square) shape",2506,6,,FALSE,FALSE,FALSE,TRUE
-V,2507,,Kaolin and other kaolinic clays; whether or not calcined,25,4,,FALSE,FALSE,TRUE,TRUE
+V,2507,,Kaolin and other kaolinic clays; whether or not calcined,25,4,,FALSE,FALSE,FALSE,TRUE
 V,250700,,Kaolin and other kaolinic clays; whether or not calcined,2507,6,,FALSE,FALSE,TRUE,TRUE
 V,2508,,"Clays; (not including expanded clays of heading no. 6806), andalusite kyanite and sillimanite, whether or not calcined; mullite; chamotte or dinas earth",25,4,,FALSE,FALSE,FALSE,TRUE
 V,250810,,"Clays (excluding expanded clays of heading no. 6806); bentonite, whether or not calcined",2508,6,,FALSE,FALSE,FALSE,TRUE
@@ -1285,7 +1285,7 @@ V,253090,,Mineral substances; n.e.c. in chapter 25,2530,6,,FALSE,FALSE,FALSE,TRU
 V,26,,"Ores, slag and ash",TOTAL,2,,FALSE,FALSE,FALSE,TRUE
 V,2601,,Iron ores and concentrates; including roasted iron pyrites,26,4,,FALSE,FALSE,FALSE,TRUE
 V,260111,,Iron ores and concentrates; non-agglomerated,2601,6,,FALSE,FALSE,FALSE,TRUE
-V,260112,,Iron ores and concentrates; agglomerated (excluding roasted iron pyrites),2601,6,,FALSE,FALSE,FALSE,TRUE
+V,260112,,Iron ores and concentrates; agglomerated (excluding roasted iron pyrites),2601,6,,FALSE,FALSE,TRUE,TRUE
 V,260120,,Iron pyrites; roasted,2601,6,,FALSE,FALSE,FALSE,TRUE
 V,2602,,"Manganese ores and concentrates, including ferruginous manganese ores and concentrates with a manganese content of 20% or more, calculated on the dry weight",26,4,,FALSE,FALSE,FALSE,TRUE
 V,260200,,"Manganese ores and concentrates, including ferruginous manganese ores and concentrates with a manganese content of 20% or more, calculated on the dry weight",2602,6,,FALSE,FALSE,FALSE,TRUE
@@ -1410,18 +1410,18 @@ VI,2802,,"Sulphur; sublimed or precipitated, colloidal sulphur",28,4,,FALSE,FALS
 VI,280200,,"Sulphur; sublimed or precipitated, colloidal sulphur",2802,6,,FALSE,FALSE,FALSE,TRUE
 VI,2803,,Carbon; carbon blacks and other forms of carbon n.e.c.,28,4,,FALSE,FALSE,FALSE,TRUE
 VI,280300,,Carbon; carbon blacks and other forms of carbon n.e.c.,2803,6,,FALSE,FALSE,FALSE,TRUE
-VI,2804,,"Hydrogen, rare gases and other non-metals",28,4,,FALSE,FALSE,TRUE,TRUE
+VI,2804,,"Hydrogen, rare gases and other non-metals",28,4,,FALSE,FALSE,FALSE,TRUE
 VI,280410,,Hydrogen,2804,6,,FALSE,FALSE,TRUE,TRUE
-VI,280421,,"Gases, rare; argon",2804,6,,FALSE,FALSE,TRUE,TRUE
-VI,280429,,"Gases, rare; other than argon",2804,6,,FALSE,FALSE,TRUE,TRUE
-VI,280430,,Nitrogen,2804,6,,FALSE,FALSE,TRUE,TRUE
-VI,280440,,Oxygen,2804,6,,FALSE,FALSE,TRUE,TRUE
-VI,280450,,Boron; tellurium,2804,6,,FALSE,FALSE,TRUE,TRUE
-VI,280461,,Silicon; containing by weight not less than 99.99% of silicon,2804,6,,FALSE,FALSE,TRUE,TRUE
-VI,280469,,Silicon; containing by weight less than 99.99% of silicon,2804,6,,FALSE,FALSE,TRUE,TRUE
-VI,280470,,Phosphorus,2804,6,,FALSE,FALSE,TRUE,TRUE
-VI,280480,,Arsenic,2804,6,,FALSE,FALSE,TRUE,TRUE
-VI,280490,,Selenium,2804,6,,FALSE,FALSE,TRUE,TRUE
+VI,280421,,"Gases, rare; argon",2804,6,,FALSE,FALSE,FALSE,TRUE
+VI,280429,,"Gases, rare; other than argon",2804,6,,FALSE,FALSE,FALSE,TRUE
+VI,280430,,Nitrogen,2804,6,,FALSE,FALSE,FALSE,TRUE
+VI,280440,,Oxygen,2804,6,,FALSE,FALSE,FALSE,TRUE
+VI,280450,,Boron; tellurium,2804,6,,FALSE,FALSE,FALSE,TRUE
+VI,280461,,Silicon; containing by weight not less than 99.99% of silicon,2804,6,,FALSE,FALSE,FALSE,TRUE
+VI,280469,,Silicon; containing by weight less than 99.99% of silicon,2804,6,,FALSE,FALSE,FALSE,TRUE
+VI,280470,,Phosphorus,2804,6,,FALSE,FALSE,FALSE,TRUE
+VI,280480,,Arsenic,2804,6,,FALSE,FALSE,FALSE,TRUE
+VI,280490,,Selenium,2804,6,,FALSE,FALSE,FALSE,TRUE
 VI,2805,,"Alkali or alkaline-earth metals; rare-earth metals, scandium and yttrium, whether or not intermixed or interalloyed; mercury",28,4,,FALSE,FALSE,FALSE,TRUE
 VI,280511,,Alkali or alkali-earth metals; sodium,2805,6,,FALSE,FALSE,FALSE,TRUE
 VI,280512,,Alkali or alkali-earth metals; calcium,2805,6,,FALSE,FALSE,FALSE,TRUE
@@ -1548,10 +1548,10 @@ VI,283327,,Sulphates; of barium,2833,6,,FALSE,FALSE,FALSE,TRUE
 VI,283329,,Sulphates; n.e.c. in item no. 2833.2,2833,6,,FALSE,FALSE,FALSE,TRUE
 VI,283330,,Alums,2833,6,,FALSE,FALSE,FALSE,TRUE
 VI,283340,,Peroxosulphates (persulphates),2833,6,,FALSE,FALSE,FALSE,TRUE
-VI,2834,,Nitrites; nitrates,28,4,,FALSE,FALSE,TRUE,TRUE
-VI,283410,,Nitrites,2834,6,,FALSE,FALSE,TRUE,TRUE
+VI,2834,,Nitrites; nitrates,28,4,,FALSE,FALSE,FALSE,TRUE
+VI,283410,,Nitrites,2834,6,,FALSE,FALSE,FALSE,TRUE
 VI,283421,,Nitrates; of potassium,2834,6,,FALSE,FALSE,TRUE,TRUE
-VI,283429,,Nitrates; of other than potassium,2834,6,,FALSE,FALSE,TRUE,TRUE
+VI,283429,,Nitrates; of other than potassium,2834,6,,FALSE,FALSE,FALSE,TRUE
 VI,2835,,"Phosphinates (hypophosphites), phosphonates (phosphites), and phosphates; and polyphosphates, whether or not chemically defined",28,4,,FALSE,FALSE,FALSE,TRUE
 VI,283510,,"Phosphinates (hypophosphites) and phosphonates (phosphites), whether or not chemically defined",2835,6,,FALSE,FALSE,FALSE,TRUE
 VI,283522,,"Phosphates; of mono- or disodium, whether or not chemically defined",2835,6,,FALSE,FALSE,FALSE,TRUE
@@ -1707,7 +1707,7 @@ VI,290435,,"Derivatives of hydrocarbons; salts of perfluorooctane sulphonic acid
 VI,290436,,"Derivatives of hydrocarbons; perfluorooctane sulphonyl fluoride, whether or not halogenated",2904,6,,FALSE,FALSE,FALSE,TRUE
 VI,290491,,"Derivatives of hydrocarbons; trichloronitromethane (chloropicrin), whether or not halogenated",2904,6,,FALSE,FALSE,FALSE,TRUE
 VI,290499,,"Derivatives of hydrocarbons n.e.c. in heading no. 2904, whether or not halogenated",2904,6,,FALSE,FALSE,FALSE,TRUE
-VI,2905,,"Acyclic alcohols and their halogenated, sulphonated, nitrated or nitrosated derivatives",29,4,,TRUE,FALSE,FALSE,TRUE
+VI,2905,,"Acyclic alcohols and their halogenated, sulphonated, nitrated or nitrosated derivatives",29,4,,FALSE,FALSE,FALSE,TRUE
 VI,290511,,"Alcohols; saturated monohydric, methanol (methyl alcohol)",2905,6,rubber,FALSE,FALSE,FALSE,TRUE
 VI,290512,,"Alcohols; saturated monohydric, propan-1-ol (propyl alcohol) and propan-2-ol (isopropyl alcohol)",2905,6,rubber,FALSE,FALSE,FALSE,TRUE
 VI,290513,,"Alcohols; saturated monohydric, butan-1-ol (n-butyl alcohol)",2905,6,rubber,FALSE,FALSE,FALSE,TRUE
@@ -1801,7 +1801,7 @@ VI,291462,,Quinones; coenzyme Q10 (ubidecarenone (INN)),2914,6,,FALSE,FALSE,FALS
 VI,291469,,Quinones; other than anthraquinone and coenzyme Q10 (ubidecarenone (INN)),2914,6,,FALSE,FALSE,FALSE,TRUE
 VI,291471,,"Ketones and quinones; halogenated, sulphonated, nitrated or nitrosated derivatives; chlordecone (ISO)",2914,6,,FALSE,FALSE,FALSE,TRUE
 VI,291479,,"Ketones and quinones; halogenated, sulphonated, nitrated or nitrosated derivatives, other than chlordecone (ISO)",2914,6,,FALSE,FALSE,FALSE,TRUE
-VI,2915,,"Acids; saturated acyclic monocarboxylic acids and their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives",29,4,,TRUE,FALSE,FALSE,TRUE
+VI,2915,,"Acids; saturated acyclic monocarboxylic acids and their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives",29,4,,FALSE,FALSE,FALSE,TRUE
 VI,291511,,Acids; saturated acyclic monocarboxylic acids; formic acid,2915,6,rubber,FALSE,FALSE,FALSE,TRUE
 VI,291512,,Acids; saturated acyclic monocarboxylic acids; salts of formic acids,2915,6,rubber,FALSE,FALSE,FALSE,TRUE
 VI,291513,,Acids; saturated acyclic monocarboxylic acids; esters of formic acid,2915,6,rubber,FALSE,FALSE,FALSE,TRUE
@@ -2165,7 +2165,7 @@ VI,310530,,"Fertilizers, mineral or chemical; diammonium hydrogenorthophosphate 
 VI,310540,,"Fertilizers, mineral or chemical; ammonium dihydrogenorthophosphate (monoammonium phosphate) and mixtures thereof with diammonium hydrogenorthophosphate (diammonium phosphate)",3105,6,,FALSE,FALSE,TRUE,TRUE
 VI,310551,,"Fertilizers, mineral or chemical; containing nitrates and phosphates",3105,6,,FALSE,FALSE,TRUE,TRUE
 VI,310559,,"Fertilizers, mineral or chemical; containing the two fertilizing elements nitrogen and phosphorus, other than nitrates and phosphates",3105,6,,FALSE,FALSE,TRUE,TRUE
-VI,310560,,"Fertilizers, mineral or chemical; containing the two fertilizing elements phosphorus and potassium",3105,6,,FALSE,FALSE,TRUE,TRUE
+VI,310560,,"Fertilizers, mineral or chemical; containing the two fertilizing elements phosphorus and potassium",3105,6,,FALSE,FALSE,FALSE,TRUE
 VI,310590,,"Fertilizers, mineral or chemical; n.e.c. in heading no. 3105",3105,6,,FALSE,FALSE,TRUE,TRUE
 VI,32,,"Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks",TOTAL,2,,FALSE,FALSE,FALSE,TRUE
 VI,3201,,"Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives",32,4,,FALSE,FALSE,FALSE,TRUE
@@ -2458,7 +2458,7 @@ VI,382212,,"Reagents; diagnostic or laboratory reagents on a backing, prepared d
 VI,382213,,"Reagents; diagnostic or laboratory reagents on a backing, prepared diagnostic or laboratory reagents whether or not on a backing, whether or not put up in the form of kits; for blood grouping",3822,6,,FALSE,FALSE,FALSE,TRUE
 VI,382219,,"Reagents; diagnostic or laboratory reagents on a backing, prepared diagnostic or laboratory reagents whether or not on a backing, whether or not put up in the form of kits; n.e.c.in item 3822.1",3822,6,,FALSE,FALSE,FALSE,TRUE
 VI,382290,,"Reagents; diagnostic or laboratory reagents on a backing, prepared diagnostic or laboratory reagents whether or not on a backing, or put up in the form of kits, other than those of heading 30.06; certified reference materials, n.e.c. in heading 3822",3822,6,,FALSE,FALSE,FALSE,TRUE
-VI,3823,,Industrial monocarboxylic fatty acids; acid oils from refining; industrial fatty alcohols,38,4,,TRUE,FALSE,FALSE,TRUE
+VI,3823,,Industrial monocarboxylic fatty acids; acid oils from refining; industrial fatty alcohols,38,4,,FALSE,FALSE,FALSE,TRUE
 VI,382311,,"Industrial monocarboxylic fatty acids, acid oils from refining; stearic acid",3823,6,palm_oil,TRUE,FALSE,FALSE,TRUE
 VI,382312,,"Industrial monocarboxylic fatty acids, acid oils from refining; oleic acid",3823,6,palm_oil,TRUE,FALSE,FALSE,TRUE
 VI,382313,,"Industrial monocarboxylic fatty acids, acid oils from refining; tall oil fatty acids",3823,6,rubber,FALSE,FALSE,FALSE,TRUE
@@ -2507,12 +2507,12 @@ VI,382740,,"Mixtures containing halogenated derivatives of methane, ethane or pr
 VI,382751,,"Mixtures containing halogenated derivatives of methane, ethane or propane; containing trifluoromethan (HFC-23) or perfluorocarbons (PFCs) but not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); containing trifluoromethane (HFC-2",3827,6,,FALSE,FALSE,FALSE,TRUE
 VI,382759,,"Mixtures containing halogenated derivatives of methane, ethane or propane; containing trifluoromethan (HFC-23) or perfluorocarbons (PFCs) not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); other mixtures n.e.c. in subheading 38",3827,6,,FALSE,FALSE,FALSE,TRUE
 VI,382761,,"Mixtures containing halogenated derivatives of methane, ethane or propane; containing other hydrofluorocarbons (HFCs) but not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); containing 15% or more by mass of 1,1,1-trifluoroethan",3827,6,,FALSE,FALSE,FALSE,TRUE
-VI,382762,,"Mixtures containing halogenated derivatives of methane, ethane or propane; containing other hydrofluorocarbons (HFCs) but not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); other mixtures, not included in the subheading above, ",3827,6,,FALSE,FALSE,FALSE,TRUE
-VI,382763,,"Mixtures containing halogenated derivatives of methane, ethane or propane; containing other hydrofluorocarbons (HFCs) but not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); other mixtures not included in the subheadings above, ",3827,6,,FALSE,FALSE,FALSE,TRUE
+VI,382762,,"Mixtures containing halogenated derivatives of methane, ethane or propane; containing other hydrofluorocarbons (HFCs) but not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); other mixtures, not included in the subheading above,",3827,6,,FALSE,FALSE,FALSE,TRUE
+VI,382763,,"Mixtures containing halogenated derivatives of methane, ethane or propane; containing other hydrofluorocarbons (HFCs) but not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); other mixtures not included in the subheadings above,",3827,6,,FALSE,FALSE,FALSE,TRUE
 VI,382764,,"Mixtures containing halogenated derivatives of methane, ethane or propane; containing other hydrofluorocarbons (HFCs) but not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); other mixtures, not included in the subheadings above,",3827,6,,FALSE,FALSE,FALSE,TRUE
 VI,382765,,"Mixtures containing halogenated derivatives of methane, ethane or propane; containing other hydrofluorocarbons (HFCs) but not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); other mixtures, not included in the subheadings above,",3827,6,,FALSE,FALSE,FALSE,TRUE
 VI,382768,,"Mixtures containing halogenated derivatives of methane, ethane or propane; containing other hydrofluorocarbons (HFCs) but not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); other mixtures, not included in the subheadings above,",3827,6,,FALSE,FALSE,FALSE,TRUE
-VI,382769,,"Mixtures containing halogenated derivatives of methane, ethane or propane; containing other hydrofluorocarbons (HFCs) but not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); n.e.c. in items no. 3827.5 and 3827.6, not containing ",3827,6,,FALSE,FALSE,FALSE,TRUE
+VI,382769,,"Mixtures containing halogenated derivatives of methane, ethane or propane; containing other hydrofluorocarbons (HFCs) but not containing chlorofluorocarbons (CFCs) or hydrochlorofluorocarbons (HCFCs); n.e.c. in items no. 3827.5 and 3827.6, not containing",3827,6,,FALSE,FALSE,FALSE,TRUE
 VI,382790,,"Mixtures containing halogenated derivatives of methane, ethane or propane; n.e.c. in subheading no 3827",3827,6,,FALSE,FALSE,FALSE,TRUE
 VII,39,,Plastics and articles thereof,TOTAL,2,,FALSE,FALSE,FALSE,TRUE
 VII,3901,,"Polymers of ethylene, in primary forms",39,4,,FALSE,FALSE,FALSE,TRUE
@@ -2862,7 +2862,7 @@ VIII,430310,,Furskin articles; apparel and clothing accessories,4303,6,,FALSE,FA
 VIII,430390,,Furskin articles; other than apparel and clothing accessories,4303,6,,FALSE,FALSE,FALSE,TRUE
 VIII,4304,,Artificial fur and articles thereof,43,4,,FALSE,FALSE,FALSE,TRUE
 VIII,430400,,"Fur, artificial; articles thereof",4304,6,,FALSE,FALSE,FALSE,TRUE
-IX,44,,Wood and articles of wood; wood charcoal,TOTAL,2,,FALSE,FALSE,FALSE,TRUE
+IX,44,,Wood and articles of wood; wood charcoal,TOTAL,2,,TRUE,FALSE,FALSE,TRUE
 IX,4401,,"Fuel wood, in logs, billets, twigs, faggots or similar forms; wood in chip or particles; sawdust and wood waste and scrap, whether or not agglomerated in logs, briquettes, pellets or similar forms",44,4,,TRUE,TRUE,FALSE,TRUE
 IX,440111,,"Wood; for fuel, in logs, in billets, in twigs, in faggots or similar forms, whether or not agglomerated, coniferous",4401,6,wood,TRUE,TRUE,FALSE,TRUE
 IX,440112,,"Wood; for fuel, in logs, in billets, in twigs, in faggots or similar forms, whether or not agglomerated, non-coniferous",4401,6,wood,TRUE,TRUE,FALSE,TRUE
@@ -2900,8 +2900,8 @@ IX,440399,,"Wood; in the rough, whether or not stripped of bark or sapwood, or r
 IX,4404,,"Hoopwood; split poles; piles, pickets, stakes of wood, pointed, not sawn lengthwise; wooden sticks, roughly trimmed, not turned, bent, etc., suitable for walking sticks, umbrellas, tool handles, etc.",44,4,,TRUE,FALSE,FALSE,TRUE
 IX,440410,,"Wood; coniferous, split poles, piles, pickets, stakes, pointed but not sawn lengthwise; sticks for umbrellas, tool handles etc, roughly trimmed but not turned or bent; chipwood etc, hoopwood",4404,6,wood,TRUE,FALSE,FALSE,TRUE
 IX,440420,,"Wood; non-coniferous, split poles, piles, pickets, stakes, pointed but not sawn lengthwise; sticks for umbrellas, tool handles etc, roughly trimmed but not turned or bent; chipwood etc, hoopwood",4404,6,wood,TRUE,FALSE,FALSE,TRUE
-IX,4405,,Wood wool; wood flour,44,4,,TRUE,TRUE,FALSE,TRUE
-IX,440500,,Wood; wood wool and wood flour,4405,6,wood,TRUE,TRUE,FALSE,TRUE
+IX,4405,,Wood wool; wood flour,44,4,,TRUE,FALSE,FALSE,TRUE
+IX,440500,,Wood; wood wool and wood flour,4405,6,wood,TRUE,FALSE,FALSE,TRUE
 IX,4406,,Railway or tramway sleepers (cross-ties) of wood,44,4,,TRUE,TRUE,FALSE,TRUE
 IX,440611,,"Wood; railway or tramway sleepers (cross-ties), not impregnated, coniferous",4406,6,wood,TRUE,TRUE,FALSE,TRUE
 IX,440612,,"Wood; railway or tramway sleepers (cross-ties), not impregnated, non-coniferous",4406,6,wood,TRUE,TRUE,FALSE,TRUE
@@ -3038,7 +3038,7 @@ IX,460211,,"Basketwork, wickerwork and other articles; of bamboo, made directly 
 IX,460212,,"Basketwork, wickerwork and other articles; of rattan, made directly to shape from plaiting materials or made up from goods of heading no. 4601",4602,6,,FALSE,FALSE,FALSE,TRUE
 IX,460219,,"Basketwork, wickerwork and other articles; of vegetable materials (not bamboo or rattan), made directly to shape from plaiting materials or made up from goods of heading no. 4601; articles of loofah",4602,6,,FALSE,FALSE,FALSE,TRUE
 IX,460290,,"Basketwork, wickerwork and other articles; of non-vegetable materials, made directly to shape from plaiting materials or made up from goods of heading no. 4601",4602,6,,FALSE,FALSE,FALSE,TRUE
-X,47,,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,TOTAL,2,,TRUE,FALSE,FALSE,TRUE
+X,47,,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,TOTAL,2,,TRUE,TRUE,FALSE,TRUE
 X,4701,,"Wood pulp, mechanical wood pulp",47,4,,TRUE,TRUE,FALSE,TRUE
 X,470100,,Wood pulp; mechanical wood pulp,4701,6,wood,TRUE,TRUE,FALSE,TRUE
 X,4702,,"Chemical wood pulp, dissolving grades",47,4,,TRUE,TRUE,FALSE,TRUE
@@ -3057,17 +3057,17 @@ X,4705,,Wood pulp obtained by a combination of mechanical and chemical pulping p
 X,470500,,Wood pulp; obtained by a combination of mechanical and chemical pulping processes,4705,6,wood,TRUE,TRUE,FALSE,TRUE
 X,4706,,Pulps of fibres derived from recovered (waste and scrap) paper or paperboard or of other fibrous cellulosic material,47,4,,TRUE,TRUE,FALSE,TRUE
 X,470610,,Pulp; cotton linters pulp,4706,6,wood,TRUE,TRUE,FALSE,TRUE
-X,470620,,Pulp; of fibres derived from recovered (waste and scrap) paper or paperboard,4706,6,wood,TRUE,TRUE,FALSE,TRUE
-X,470630,,Pulp; of bamboo,4706,6,wood,TRUE,TRUE,FALSE,TRUE
+X,470620,,Pulp; of fibres derived from recovered (waste and scrap) paper or paperboard,4706,6,wood,FALSE,FALSE,FALSE,TRUE
+X,470630,,Pulp; of bamboo,4706,6,wood,FALSE,FALSE,FALSE,TRUE
 X,470691,,"Pulp; of fibrous cellulosic material, other than of bamboo or fibres derived from recovered (waste and scrap) paper or paperboard or from cotton linters pulp, mechanical",4706,6,wood,TRUE,TRUE,FALSE,TRUE
 X,470692,,"Pulp; of fibrous cellulosic material, other than of bamboo or fibres derived from recovered (waste and scrap) paper or paperboard or from cotton linters pulp, chemical",4706,6,wood,TRUE,TRUE,FALSE,TRUE
 X,470693,,"Pulp; of fibrous cellulosic material, other than of bamboo or fibres derived from recovered (waste and scrap) paper or paperboard or from cotton linters pulp, obtained by a combination of mechanical and chemical processes",4706,6,wood,TRUE,TRUE,FALSE,TRUE
-X,4707,,Waste and scrap of paper and paperboard,47,4,,TRUE,TRUE,FALSE,TRUE
-X,470710,,"Paper or paperboard; waste and scrap, of unbleached kraft paper or paperboard or corrugated paper or paperboard",4707,6,wood,TRUE,TRUE,FALSE,TRUE
-X,470720,,"Paper or paperboard; waste and scrap, paper or paperboard made mainly of bleached chemical pulp, not coloured in the mass",4707,6,wood,TRUE,TRUE,FALSE,TRUE
-X,470730,,"Paper or paperboard; waste and scrap, paper or paperboard made mainly of mechanical pulp (e.g. newspapers, journals and similar printed matter)",4707,6,wood,TRUE,TRUE,FALSE,TRUE
-X,470790,,"Paper or paperboard; waste and scrap, of paper or paperboard n.e.c. in heading no. 4707 and of unsorted waste and scrap",4707,6,wood,TRUE,TRUE,FALSE,TRUE
-X,48,,"Paper and paperboard; articles of paper pulp, of paper or paperboard",TOTAL,2,,TRUE,FALSE,FALSE,TRUE
+X,4707,,Waste and scrap of paper and paperboard,47,4,,FALSE,FALSE,FALSE,TRUE
+X,470710,,"Paper or paperboard; waste and scrap, of unbleached kraft paper or paperboard or corrugated paper or paperboard",4707,6,wood,FALSE,FALSE,FALSE,TRUE
+X,470720,,"Paper or paperboard; waste and scrap, paper or paperboard made mainly of bleached chemical pulp, not coloured in the mass",4707,6,wood,FALSE,FALSE,FALSE,TRUE
+X,470730,,"Paper or paperboard; waste and scrap, paper or paperboard made mainly of mechanical pulp (e.g. newspapers, journals and similar printed matter)",4707,6,wood,FALSE,FALSE,FALSE,TRUE
+X,470790,,"Paper or paperboard; waste and scrap, of paper or paperboard n.e.c. in heading no. 4707 and of unsorted waste and scrap",4707,6,wood,FALSE,FALSE,FALSE,TRUE
+X,48,,"Paper and paperboard; articles of paper pulp, of paper or paperboard",TOTAL,2,,TRUE,TRUE,FALSE,TRUE
 X,4801,,"Newsprint, in rolls or sheets",48,4,,TRUE,TRUE,FALSE,TRUE
 X,480100,,"Newsprint; made of fibres obtained essentially by a chemi-mechanical process or of a weight, per m2, of more than 57g but not more than 65g, in rolls or sheets",4801,6,wood,TRUE,TRUE,FALSE,TRUE
 X,4802,,"Uncoated paper and paperboard, used for writing, printing or other graphics, non perforated punch-cards and punch tape paper, in rolls or rectangular sheets, of any size, other than paper of heading 4801 or 4803; hand-made paper and paperboard",48,4,,TRUE,TRUE,FALSE,TRUE
@@ -3101,8 +3101,8 @@ X,4805,,"Uncoated paper and paperboard n.e.c., in rolls or sheets",48,4,,TRUE,TR
 X,480511,,"Paper and paperboard; uncoated, semi-chemical fluting paper, rolls or sheets",4805,6,wood,TRUE,TRUE,FALSE,TRUE
 X,480512,,"Paper and paperboard; uncoated, straw fluting paper, rolls or sheets",4805,6,wood,TRUE,TRUE,FALSE,TRUE
 X,480519,,"Paper and paperboard; uncoated, fluting paper other than semi-chemical or straw, rolls or sheets",4805,6,wood,TRUE,TRUE,FALSE,TRUE
-X,480524,,"Paper & paperboard; uncoated, testliner (recycled linerboard), weight 150g/m2, or less, in rolls or sheets",4805,6,wood,TRUE,TRUE,FALSE,TRUE
-X,480525,,"Paper & paperboard; uncoated, testliner (recycled linerboard), weight over 150g/m2, in rolls or sheets",4805,6,wood,TRUE,TRUE,FALSE,TRUE
+X,480524,,"Paper & paperboard; uncoated, testliner (recycled linerboard), weight 150g/m2, or less, in rolls or sheets",4805,6,wood,FALSE,FALSE,FALSE,TRUE
+X,480525,,"Paper & paperboard; uncoated, testliner (recycled linerboard), weight over 150g/m2, in rolls or sheets",4805,6,wood,FALSE,FALSE,FALSE,TRUE
 X,480530,,"Paper and paperboard; sulphite wrapping paper, uncoated, in rolls or sheets",4805,6,wood,TRUE,TRUE,FALSE,TRUE
 X,480540,,"Paper and paperboard; filter paper and paperboard, uncoated, in rolls or sheets",4805,6,wood,TRUE,TRUE,FALSE,TRUE
 X,480550,,"Paper and paperboard; felt paper and paperboard, uncoated, in rolls or sheets",4805,6,wood,TRUE,TRUE,FALSE,TRUE
@@ -3187,40 +3187,40 @@ X,482290,,"Paper pulp, paper or paperboard; bobbins, spools, cops and similar su
 X,4823,,"Paper, paperboard, cellulose wadding and webs of cellulose fibres; cut to size or shape, articles of paper pulp, paper and paper-board, cellulose wadding or webs of cellulose fibres, n.e.c. in chapter 48",48,4,,TRUE,TRUE,FALSE,TRUE
 X,482320,,Paper and paperboard; filter paper and paperboard,4823,6,wood,TRUE,TRUE,FALSE,TRUE
 X,482340,,"Paper and paperboard; rolls, sheets and dials, printed for self-recording apparatus",4823,6,wood,TRUE,TRUE,FALSE,TRUE
-X,482361,,"Paper and paperboard; trays, dishes, plates, cups and the like, of bamboo paper or paperboard",4823,6,wood,TRUE,TRUE,FALSE,TRUE
+X,482361,,"Paper and paperboard; trays, dishes, plates, cups and the like, of bamboo paper or paperboard",4823,6,wood,FALSE,FALSE,FALSE,TRUE
 X,482369,,"Paper and paperboard; trays, dishes, plates, cups and the like, of paper or paperboard other than of bamboo",4823,6,wood,TRUE,TRUE,FALSE,TRUE
 X,482370,,Paper pulp; moulded or pressed articles or paper pulp,4823,6,wood,TRUE,TRUE,FALSE,TRUE
 X,482390,,"Paper pulp, paper, paperboard, cellulose wadding or webs of cellulose fibres; articles n.e.c. in heading no. 4823",4823,6,wood,TRUE,TRUE,FALSE,TRUE
-X,49,,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",TOTAL,2,,TRUE,FALSE,FALSE,TRUE
-X,4901,,"Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets",49,4,,TRUE,TRUE,FALSE,TRUE
-X,490110,,"Printed matter; in single sheets, whether or not folded",4901,6,wood,TRUE,TRUE,FALSE,TRUE
-X,490191,,"Printed matter; dictionaries, encyclopaedias and serial instalments thereof",4901,6,wood,TRUE,TRUE,FALSE,TRUE
-X,490199,,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",4901,6,wood,TRUE,TRUE,FALSE,TRUE
-X,4902,,"Newspapers, journals and periodicals, whether or not illustrated or containing advertising material",49,4,,TRUE,FALSE,FALSE,TRUE
-X,490210,,"Newspapers, journals and periodicals; whether or not illustrated or containing advertising material, appearing at least four times a week",4902,6,wood,TRUE,FALSE,FALSE,TRUE
-X,490290,,"Newspapers, journals and periodicals; whether or not illustrated or containing advertising material, appearing less frequently than four times a week",4902,6,wood,TRUE,FALSE,FALSE,TRUE
-X,4903,,"Children's picture, drawing or colouring books",49,4,,TRUE,TRUE,FALSE,TRUE
-X,490300,,"Printed matter; children's picture, drawing or colouring books",4903,6,wood,TRUE,TRUE,FALSE,TRUE
-X,4904,,"Music, printed or in manuscript, whether or not bound or illustrated",49,4,,TRUE,FALSE,FALSE,TRUE
-X,490400,,"Music; printed or in manuscript, whether or not bound or illustrated",4904,6,wood,TRUE,FALSE,FALSE,TRUE
-X,4905,,"Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed",49,4,,TRUE,FALSE,FALSE,TRUE
-X,490520,,"Maps and hydrographic or similar charts; printed in book form, including atlases, topographical plans and similar",4905,6,wood,TRUE,FALSE,FALSE,TRUE
-X,490590,,"Maps and hydrographic or similar charts; (printed other than in book form), including wall maps, topographical plans and similar",4905,6,wood,TRUE,FALSE,FALSE,TRUE
-X,4906,,"Plans and drawings; for architectural, engineering, industrial, commercial, topographical or similar, being originals drawn by hand; hand-written texts; photo- graphic reproductions; their carbon copies",49,4,,TRUE,TRUE,FALSE,TRUE
-X,490600,,"Plans and drawings; for architectural, engineering, industrial, commercial, topographical or similar, being originals drawn by hand; hand-written texts; photo- graphic reproductions; their carbon copies",4906,6,wood,TRUE,TRUE,FALSE,TRUE
-X,4907,,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",49,4,,TRUE,TRUE,FALSE,TRUE
-X,490700,,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",4907,6,wood,TRUE,TRUE,FALSE,TRUE
-X,4908,,Transfers (decalcomanias),49,4,,TRUE,TRUE,FALSE,TRUE
-X,490810,,"Printed matter; transfers (decalcomanias), vitrifiable",4908,6,wood,TRUE,TRUE,FALSE,TRUE
-X,490890,,"Printed matter; transfers (decalcomanias), other than vitrifiable",4908,6,wood,TRUE,TRUE,FALSE,TRUE
-X,4909,,"Printed or illustrated postcards; printed cards bearing personal greetings, messages or announcements, whether or not illustrated, with or without envelopes or trimmings",49,4,,TRUE,TRUE,FALSE,TRUE
-X,490900,,"Printed or illustrated postcards; printed cards bearing personal greetings, messages or announcements, whether or not illustrated, with or without envelopes or trimmings",4909,6,wood,TRUE,TRUE,FALSE,TRUE
-X,4910,,"Calendars of any kind, printed, including calendar blocks",49,4,,TRUE,TRUE,FALSE,TRUE
-X,491000,,"Calendars; printed, of any kind, including calendar blocks",4910,6,wood,TRUE,TRUE,FALSE,TRUE
-X,4911,,"Printed matter, n.e.c., including printed pictures and photographs",49,4,,TRUE,TRUE,FALSE,TRUE
-X,491110,,"Printed matter; trade advertising material, commercial catalogues and the like",4911,6,wood,TRUE,TRUE,FALSE,TRUE
-X,491191,,"Printed matter; pictures, designs and photographs, n.e.c. in item no. 4911.10",4911,6,wood,TRUE,TRUE,FALSE,TRUE
-X,491199,,Printed matter; n.e.c. in heading no. 4911,4911,6,wood,TRUE,TRUE,FALSE,TRUE
+X,49,,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",TOTAL,2,,FALSE,FALSE,FALSE,TRUE
+X,4901,,"Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets",49,4,,FALSE,FALSE,FALSE,TRUE
+X,490110,,"Printed matter; in single sheets, whether or not folded",4901,6,wood,FALSE,FALSE,FALSE,TRUE
+X,490191,,"Printed matter; dictionaries, encyclopaedias and serial instalments thereof",4901,6,wood,FALSE,FALSE,FALSE,TRUE
+X,490199,,"Printed matter; books, brochures, leaflets and similar printed matter n.e.c. in item no. 4901.10 or 4901.91",4901,6,wood,FALSE,FALSE,FALSE,TRUE
+X,4902,,"Newspapers, journals and periodicals, whether or not illustrated or containing advertising material",49,4,,FALSE,FALSE,FALSE,TRUE
+X,490210,,"Newspapers, journals and periodicals; whether or not illustrated or containing advertising material, appearing at least four times a week",4902,6,wood,FALSE,FALSE,FALSE,TRUE
+X,490290,,"Newspapers, journals and periodicals; whether or not illustrated or containing advertising material, appearing less frequently than four times a week",4902,6,wood,FALSE,FALSE,FALSE,TRUE
+X,4903,,"Children's picture, drawing or colouring books",49,4,,FALSE,FALSE,FALSE,TRUE
+X,490300,,"Printed matter; children's picture, drawing or colouring books",4903,6,wood,FALSE,FALSE,FALSE,TRUE
+X,4904,,"Music, printed or in manuscript, whether or not bound or illustrated",49,4,,FALSE,FALSE,FALSE,TRUE
+X,490400,,"Music; printed or in manuscript, whether or not bound or illustrated",4904,6,wood,FALSE,FALSE,FALSE,TRUE
+X,4905,,"Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed",49,4,,FALSE,FALSE,FALSE,TRUE
+X,490520,,"Maps and hydrographic or similar charts; printed in book form, including atlases, topographical plans and similar",4905,6,wood,FALSE,FALSE,FALSE,TRUE
+X,490590,,"Maps and hydrographic or similar charts; (printed other than in book form), including wall maps, topographical plans and similar",4905,6,wood,FALSE,FALSE,FALSE,TRUE
+X,4906,,"Plans and drawings; for architectural, engineering, industrial, commercial, topographical or similar, being originals drawn by hand; hand-written texts; photo- graphic reproductions; their carbon copies",49,4,,FALSE,FALSE,FALSE,TRUE
+X,490600,,"Plans and drawings; for architectural, engineering, industrial, commercial, topographical or similar, being originals drawn by hand; hand-written texts; photo- graphic reproductions; their carbon copies",4906,6,wood,FALSE,FALSE,FALSE,TRUE
+X,4907,,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",49,4,,FALSE,FALSE,FALSE,TRUE
+X,490700,,"Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; cheque forms; banknotes, stock, share or bond certificates and the like of similar title",4907,6,wood,FALSE,FALSE,FALSE,TRUE
+X,4908,,Transfers (decalcomanias),49,4,,FALSE,FALSE,FALSE,TRUE
+X,490810,,"Printed matter; transfers (decalcomanias), vitrifiable",4908,6,wood,FALSE,FALSE,FALSE,TRUE
+X,490890,,"Printed matter; transfers (decalcomanias), other than vitrifiable",4908,6,wood,FALSE,FALSE,FALSE,TRUE
+X,4909,,"Printed or illustrated postcards; printed cards bearing personal greetings, messages or announcements, whether or not illustrated, with or without envelopes or trimmings",49,4,,FALSE,FALSE,FALSE,TRUE
+X,490900,,"Printed or illustrated postcards; printed cards bearing personal greetings, messages or announcements, whether or not illustrated, with or without envelopes or trimmings",4909,6,wood,FALSE,FALSE,FALSE,TRUE
+X,4910,,"Calendars of any kind, printed, including calendar blocks",49,4,,FALSE,FALSE,FALSE,TRUE
+X,491000,,"Calendars; printed, of any kind, including calendar blocks",4910,6,wood,FALSE,FALSE,FALSE,TRUE
+X,4911,,"Printed matter, n.e.c., including printed pictures and photographs",49,4,,FALSE,FALSE,FALSE,TRUE
+X,491110,,"Printed matter; trade advertising material, commercial catalogues and the like",4911,6,wood,FALSE,FALSE,FALSE,TRUE
+X,491191,,"Printed matter; pictures, designs and photographs, n.e.c. in item no. 4911.10",4911,6,wood,FALSE,FALSE,FALSE,TRUE
+X,491199,,Printed matter; n.e.c. in heading no. 4911,4911,6,wood,FALSE,FALSE,FALSE,TRUE
 XI,50,,Silk,TOTAL,2,,FALSE,FALSE,FALSE,TRUE
 XI,5001,,Silk-worm cocoons suitable for reeling,50,4,,FALSE,FALSE,FALSE,TRUE
 XI,500100,,Silk; silk-worm cocoons suitable for reeling,5001,6,,FALSE,FALSE,FALSE,TRUE
@@ -4537,30 +4537,30 @@ XV,720150,,"Iron; alloy pig iron; spiegeleisen, in pigs, blocks or other primary
 XV,7202,,Ferro-alloys,72,4,,FALSE,FALSE,TRUE,TRUE
 XV,720211,,"Ferro-alloys; ferro-manganese, containing by weight more than 2% of carbon",7202,6,,FALSE,FALSE,TRUE,TRUE
 XV,720219,,"Ferro-alloys; ferro-manganese, containing by weight 2% or less of carbon",7202,6,,FALSE,FALSE,TRUE,TRUE
-XV,720221,,"Ferro-alloys; ferro-silicon, containing by weight more than 55% of silicon",7202,6,,FALSE,FALSE,TRUE,TRUE
-XV,720229,,"Ferro-alloys; ferro-silicon, containing by weight 55% or less of silicon",7202,6,,FALSE,FALSE,TRUE,TRUE
-XV,720230,,Ferro-alloys; ferro-silico-manganese,7202,6,,FALSE,FALSE,TRUE,TRUE
+XV,720221,,"Ferro-alloys; ferro-silicon, containing by weight more than 55% of silicon",7202,6,,FALSE,FALSE,FALSE,TRUE
+XV,720229,,"Ferro-alloys; ferro-silicon, containing by weight 55% or less of silicon",7202,6,,FALSE,FALSE,FALSE,TRUE
+XV,720230,,Ferro-alloys; ferro-silico-manganese,7202,6,,FALSE,FALSE,FALSE,TRUE
 XV,720241,,"Ferro-alloys; ferro-chromium, containing by weight more than 4% of carbon",7202,6,,FALSE,FALSE,TRUE,TRUE
 XV,720249,,"Ferro-alloys; ferro-chromium, containing by weight 4% or less of carbon",7202,6,,FALSE,FALSE,TRUE,TRUE
-XV,720250,,Ferro-alloys; ferro-silico-chromium,7202,6,,FALSE,FALSE,TRUE,TRUE
+XV,720250,,Ferro-alloys; ferro-silico-chromium,7202,6,,FALSE,FALSE,FALSE,TRUE
 XV,720260,,Ferro-alloys; ferro-nickel,7202,6,,FALSE,FALSE,TRUE,TRUE
-XV,720270,,Ferro-alloys; ferro-molybdenum,7202,6,,FALSE,FALSE,TRUE,TRUE
-XV,720280,,Ferro-alloys; ferro-tungsten and ferro-silico-tungsten,7202,6,,FALSE,FALSE,TRUE,TRUE
-XV,720291,,Ferro-alloys; ferro-titanium and ferro-silico-titanium,7202,6,,FALSE,FALSE,TRUE,TRUE
-XV,720292,,Ferro-alloys; ferro-vanadium,7202,6,,FALSE,FALSE,TRUE,TRUE
-XV,720293,,Ferro-alloys; ferro-niobium,7202,6,,FALSE,FALSE,TRUE,TRUE
-XV,720299,,Ferro-alloys; n.e.c. in heading no. 7202,7202,6,,FALSE,FALSE,TRUE,TRUE
+XV,720270,,Ferro-alloys; ferro-molybdenum,7202,6,,FALSE,FALSE,FALSE,TRUE
+XV,720280,,Ferro-alloys; ferro-tungsten and ferro-silico-tungsten,7202,6,,FALSE,FALSE,FALSE,TRUE
+XV,720291,,Ferro-alloys; ferro-titanium and ferro-silico-titanium,7202,6,,FALSE,FALSE,FALSE,TRUE
+XV,720292,,Ferro-alloys; ferro-vanadium,7202,6,,FALSE,FALSE,FALSE,TRUE
+XV,720293,,Ferro-alloys; ferro-niobium,7202,6,,FALSE,FALSE,FALSE,TRUE
+XV,720299,,Ferro-alloys; n.e.c. in heading no. 7202,7202,6,,FALSE,FALSE,FALSE,TRUE
 XV,7203,,"Ferrous products obtained by direct reduction of iron ore and other spongy ferrous products, in lumps, pellets or the like; iron having a minimum purity of 99.94%, in lumps, pellets or similar forms",72,4,,FALSE,FALSE,TRUE,TRUE
 XV,720310,,"Ferrous products; obtained by direct reduction of iron ore, in lumps, pellets or similar forms",7203,6,,FALSE,FALSE,TRUE,TRUE
 XV,720390,,"Ferrous products; spongy ferrous products and iron having a minimum purity by weight of 99.94%, in lumps, pellets or similar forms",7203,6,,FALSE,FALSE,TRUE,TRUE
-XV,7204,,Ferrous waste and scrap; remelting scrap ingots of iron or steel,72,4,,FALSE,FALSE,TRUE,TRUE
-XV,720410,,Ferrous waste and scrap; of cast iron,7204,6,,FALSE,FALSE,TRUE,TRUE
-XV,720421,,Ferrous waste and scrap; of stainless steel,7204,6,,FALSE,FALSE,TRUE,TRUE
-XV,720429,,Ferrous waste and scrap; of alloy steel (excluding stainless),7204,6,,FALSE,FALSE,TRUE,TRUE
-XV,720430,,Ferrous waste and scrap; of tinned iron or steel,7204,6,,FALSE,FALSE,TRUE,TRUE
-XV,720441,,"Ferrous waste and scrap; turnings, shavings, chips, milling waste, sawdust, filings, trimmings and stampings, whether or not in bundles",7204,6,,FALSE,FALSE,TRUE,TRUE
-XV,720449,,Ferrous waste and scrap; n.e.c. in heading no. 7204,7204,6,,FALSE,FALSE,TRUE,TRUE
-XV,720450,,Ferrous products; remelting scrap ingots,7204,6,,FALSE,FALSE,TRUE,TRUE
+XV,7204,,Ferrous waste and scrap; remelting scrap ingots of iron or steel,72,4,,FALSE,FALSE,FALSE,TRUE
+XV,720410,,Ferrous waste and scrap; of cast iron,7204,6,,FALSE,FALSE,FALSE,TRUE
+XV,720421,,Ferrous waste and scrap; of stainless steel,7204,6,,FALSE,FALSE,FALSE,TRUE
+XV,720429,,Ferrous waste and scrap; of alloy steel (excluding stainless),7204,6,,FALSE,FALSE,FALSE,TRUE
+XV,720430,,Ferrous waste and scrap; of tinned iron or steel,7204,6,,FALSE,FALSE,FALSE,TRUE
+XV,720441,,"Ferrous waste and scrap; turnings, shavings, chips, milling waste, sawdust, filings, trimmings and stampings, whether or not in bundles",7204,6,,FALSE,FALSE,FALSE,TRUE
+XV,720449,,Ferrous waste and scrap; n.e.c. in heading no. 7204,7204,6,,FALSE,FALSE,FALSE,TRUE
+XV,720450,,Ferrous products; remelting scrap ingots,7204,6,,FALSE,FALSE,FALSE,TRUE
 XV,7205,,"Granules and powders, of pig iron, spiegeleisen, iron or steel",72,4,,FALSE,FALSE,TRUE,TRUE
 XV,720510,,"Iron or steel, pig iron, spiegeleisen; granules thereof",7205,6,,FALSE,FALSE,TRUE,TRUE
 XV,720521,,Alloy steel powders,7205,6,,FALSE,FALSE,TRUE,TRUE
@@ -6733,39 +6733,39 @@ XIX,930690,,Ammunition; n.e.c. in chapter 93,9306,6,,FALSE,FALSE,FALSE,TRUE
 XIX,9307,,"Arms; swords, cutlasses, bayonets, lances and the like, parts thereof and scabbards and sheaths therefor",93,4,,FALSE,FALSE,FALSE,TRUE
 XIX,930700,,"Arms; swords, cutlasses, bayonets, lances and the like, parts thereof and scabbards and sheaths therefor",9307,6,,FALSE,FALSE,FALSE,TRUE
 XX,94,,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",TOTAL,2,,FALSE,FALSE,FALSE,TRUE
-XX,9401,,"Seats (not those of heading no. 9402), whether or not convertible into beds and parts thereof",94,4,,TRUE,TRUE,FALSE,TRUE
-XX,940110,,Seats; of a kind used for aircraft,9401,6,wood,TRUE,TRUE,FALSE,TRUE
-XX,940120,,Seats; of a kind used for motor vehicles,9401,6,wood,TRUE,TRUE,FALSE,TRUE
-XX,940131,,"Seats; swivel with variable height adjustment of wood, excluding medical, surgical, dental, veterinary or barber furniture",9401,6,wood,TRUE,TRUE,FALSE,TRUE
-XX,940139,,"Seats; swivel with variable height adjustment of other than wood, excluding medical, surgical, dental, veterinary or barber furniture",9401,6,wood,TRUE,TRUE,FALSE,TRUE
-XX,940141,,"Seats; convertible into beds of wood, other than garden seats or camping equipment",9401,6,wood,TRUE,TRUE,FALSE,TRUE
-XX,940149,,"Seats; convertible into beds of other than wood, other than garden seats or camping equipment",9401,6,wood,TRUE,TRUE,FALSE,TRUE
-XX,940152,,Seats; of bamboo,9401,6,wood,TRUE,TRUE,FALSE,TRUE
-XX,940153,,Seats; of rattan,9401,6,wood,TRUE,TRUE,FALSE,TRUE
-XX,940159,,"Seats; of cane, osier or similar materials, other than bamboo or rattan",9401,6,wood,TRUE,TRUE,FALSE,TRUE
-XX,940161,,"Seats; with wooden frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)",9401,6,wood,TRUE,TRUE,FALSE,TRUE
-XX,940169,,"Seats; with wooden frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)",9401,6,wood,TRUE,TRUE,FALSE,TRUE
-XX,940171,,"Seats; with metal frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)",9401,6,wood,TRUE,TRUE,FALSE,TRUE
-XX,940179,,"Seats; with metal frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)",9401,6,wood,TRUE,TRUE,FALSE,TRUE
-XX,940180,,"Seats; n.e.c. in heading no. 9401, (excluding medical, surgical, dental, veterinary or barber furniture)",9401,6,wood,TRUE,TRUE,FALSE,TRUE
-XX,940191,,"Seats; parts, of wood, (other than for use in the assembly of motor vehicles as determined by the minister, other than automotive)",9401,6,wood,TRUE,TRUE,FALSE,TRUE
-XX,940199,,"Seats; parts, (of other than wood) for use in the assembly of motor vehicles as determined by the minister",9401,6,wood,TRUE,TRUE,FALSE,TRUE
+XX,9401,,"Seats (not those of heading no. 9402), whether or not convertible into beds and parts thereof",94,4,,FALSE,FALSE,FALSE,TRUE
+XX,940110,,Seats; of a kind used for aircraft,9401,6,wood,FALSE,FALSE,FALSE,TRUE
+XX,940120,,Seats; of a kind used for motor vehicles,9401,6,wood,FALSE,FALSE,FALSE,TRUE
+XX,940131,,"Seats; swivel with variable height adjustment of wood, excluding medical, surgical, dental, veterinary or barber furniture",9401,6,wood,TRUE,FALSE,FALSE,TRUE
+XX,940139,,"Seats; swivel with variable height adjustment of other than wood, excluding medical, surgical, dental, veterinary or barber furniture",9401,6,wood,FALSE,FALSE,FALSE,TRUE
+XX,940141,,"Seats; convertible into beds of wood, other than garden seats or camping equipment",9401,6,wood,TRUE,FALSE,FALSE,TRUE
+XX,940149,,"Seats; convertible into beds of other than wood, other than garden seats or camping equipment",9401,6,wood,FALSE,FALSE,FALSE,TRUE
+XX,940152,,Seats; of bamboo,9401,6,wood,FALSE,FALSE,FALSE,TRUE
+XX,940153,,Seats; of rattan,9401,6,wood,FALSE,FALSE,FALSE,TRUE
+XX,940159,,"Seats; of cane, osier or similar materials, other than bamboo or rattan",9401,6,wood,FALSE,FALSE,FALSE,TRUE
+XX,940161,,"Seats; with wooden frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)",9401,6,wood,TRUE,FALSE,FALSE,TRUE
+XX,940169,,"Seats; with wooden frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)",9401,6,wood,TRUE,FALSE,FALSE,TRUE
+XX,940171,,"Seats; with metal frames, upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)",9401,6,wood,FALSE,FALSE,FALSE,TRUE
+XX,940179,,"Seats; with metal frames, not upholstered, (excluding medical, surgical, dental, veterinary or barber furniture)",9401,6,wood,FALSE,FALSE,FALSE,TRUE
+XX,940180,,"Seats; n.e.c. in heading no. 9401, (excluding medical, surgical, dental, veterinary or barber furniture)",9401,6,wood,FALSE,FALSE,FALSE,TRUE
+XX,940191,,"Seats; parts, of wood, (other than for use in the assembly of motor vehicles as determined by the minister, other than automotive)",9401,6,wood,TRUE,FALSE,FALSE,TRUE
+XX,940199,,"Seats; parts, (of other than wood) for use in the assembly of motor vehicles as determined by the minister",9401,6,wood,FALSE,FALSE,FALSE,TRUE
 XX,9402,,"Furniture; medical, surgical, dental or veterinary (e.g. operating tables, hospital beds, dentists' chairs) barbers' chairs; parts",94,4,,FALSE,FALSE,FALSE,TRUE
 XX,940210,,"Chairs; dentists', barbers' or similar chairs having rotating as well as both reclining and elevating movements, and parts thereof",9402,6,,FALSE,FALSE,FALSE,TRUE
 XX,940290,,"Furniture; for medical, surgical, veterinary use (e.g. operating tables, examination tables, hospital beds with mechanical fittings) and parts thereof",9402,6,,FALSE,FALSE,FALSE,TRUE
-XX,9403,,"Furniture and parts thereof, n.e.c. in chapter 94",94,4,,TRUE,TRUE,FALSE,TRUE
-XX,940310,,"Furniture; metal, for office use",9403,6,rubber,FALSE,TRUE,FALSE,TRUE
-XX,940320,,"Furniture; metal, other than for office use",9403,6,rubber,FALSE,TRUE,FALSE,TRUE
+XX,9403,,"Furniture and parts thereof, n.e.c. in chapter 94",94,4,,FALSE,FALSE,FALSE,TRUE
+XX,940310,,"Furniture; metal, for office use",9403,6,rubber,FALSE,FALSE,FALSE,TRUE
+XX,940320,,"Furniture; metal, other than for office use",9403,6,rubber,FALSE,FALSE,FALSE,TRUE
 XX,940330,,"Furniture; wooden, for office use",9403,6,wood,TRUE,TRUE,FALSE,TRUE
 XX,940340,,"Furniture; wooden, for kitchen use",9403,6,wood,TRUE,TRUE,FALSE,TRUE
 XX,940350,,"Furniture; wooden, for bedroom use",9403,6,wood,TRUE,TRUE,FALSE,TRUE
 XX,940360,,"Furniture; wooden, other than for office, kitchen or bedroom use",9403,6,wood,TRUE,TRUE,FALSE,TRUE
-XX,940370,,Furniture; plastic,9403,6,rubber,FALSE,TRUE,FALSE,TRUE
-XX,940382,,Furniture; of bamboo,9403,6,rubber,FALSE,TRUE,FALSE,TRUE
-XX,940383,,Furniture; of rattan,9403,6,rubber,FALSE,TRUE,FALSE,TRUE
-XX,940389,,"Furniture; of cane, osier, or similar materials (other than bamboo or rattan)",9403,6,rubber,FALSE,TRUE,FALSE,TRUE
+XX,940370,,Furniture; plastic,9403,6,rubber,FALSE,FALSE,FALSE,TRUE
+XX,940382,,Furniture; of bamboo,9403,6,rubber,FALSE,FALSE,FALSE,TRUE
+XX,940383,,Furniture; of rattan,9403,6,rubber,FALSE,FALSE,FALSE,TRUE
+XX,940389,,"Furniture; of cane, osier, or similar materials (other than bamboo or rattan)",9403,6,rubber,FALSE,FALSE,FALSE,TRUE
 XX,940391,,"Furniture; parts, of wood",9403,6,wood,TRUE,TRUE,FALSE,TRUE
-XX,940399,,"Furniture; parts, of other than wood",9403,6,rubber,FALSE,TRUE,FALSE,TRUE
+XX,940399,,"Furniture; parts, of other than wood",9403,6,rubber,FALSE,FALSE,FALSE,TRUE
 XX,9404,,"Mattress supports; articles of bedding (e.g. mattresses, quilts, eiderdowns, cushions pouffes and pillows), fitted with springs or stuffed, whether or not covered",94,4,,FALSE,FALSE,FALSE,TRUE
 XX,940410,,Mattress supports,9404,6,,FALSE,FALSE,FALSE,TRUE
 XX,940421,,"Mattresses; of cellular rubber or plastics, whether or not covered",9404,6,,FALSE,FALSE,FALSE,TRUE
@@ -6789,10 +6789,10 @@ XX,940569,,"Luminaires; illuminated signs, illuminated name-plates and the like,
 XX,940591,,"Lamps and light fittings; parts thereof, of glass",9405,6,,FALSE,FALSE,FALSE,TRUE
 XX,940592,,"Lamps and light fittings; parts thereof, of plastics",9405,6,,FALSE,FALSE,FALSE,TRUE
 XX,940599,,"Lamps and light fittings; parts thereof, of materials other than glass or plastics",9405,6,,FALSE,FALSE,FALSE,TRUE
-XX,9406,,Buildings; prefabricated,94,4,,TRUE,TRUE,FALSE,TRUE
+XX,9406,,Buildings; prefabricated,94,4,,FALSE,FALSE,FALSE,TRUE
 XX,940610,,"Buildings; prefabricated, of wood",9406,6,wood,TRUE,TRUE,FALSE,TRUE
-XX,940620,,"Buildings; modular building units, of steel",9406,6,wood,TRUE,TRUE,FALSE,TRUE
-XX,940690,,"Buildings; prefabricated, not of wood",9406,6,wood,TRUE,TRUE,FALSE,TRUE
+XX,940620,,"Buildings; modular building units, of steel",9406,6,wood,FALSE,FALSE,FALSE,TRUE
+XX,940690,,"Buildings; prefabricated, not of wood",9406,6,wood,FALSE,FALSE,FALSE,TRUE
 XX,95,,"Toys, games and sports requisites; parts and accessories thereof",TOTAL,2,,FALSE,FALSE,FALSE,TRUE
 XX,9503,,"Tricycles, scooters, pedal cars and similar wheeled toys; dolls' carriages; dolls; other toys; reduced-size (scale) models and similar recreational models, working or not; puzzles of all kinds",95,4,,FALSE,FALSE,FALSE,TRUE
 XX,950300,,"Tricycles, scooters, pedal cars and similar wheeled toys; dolls' carriages; dolls; other toys; reduced-size (scale) models and similar recreational models, working or not; puzzles of all kinds",9503,6,,FALSE,FALSE,FALSE,TRUE
