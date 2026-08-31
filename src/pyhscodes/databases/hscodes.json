@@ -1084,9 +1084,10 @@
       "level": "6",
       "commodity": "meat",
       "standards": [
+        "EUDR",
         "PPWR"
       ],
-      "EUDR": false,
+      "EUDR": true,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -11112,10 +11113,9 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -11128,10 +11128,9 @@
       "level": "6",
       "commodity": "soya",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -16213,9 +16212,10 @@
       "level": "6",
       "commodity": "",
       "standards": [
+        "EUDR",
         "PPWR"
       ],
-      "EUDR": false,
+      "EUDR": true,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -27441,9 +27441,10 @@
       "level": "6",
       "commodity": "",
       "standards": [
+        "EUDR",
         "PPWR"
       ],
-      "EUDR": false,
+      "EUDR": true,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -34119,9 +34120,10 @@
       "level": "6",
       "commodity": "",
       "standards": [
+        "EUDR",
         "PPWR"
       ],
-      "EUDR": false,
+      "EUDR": true,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -34149,9 +34151,10 @@
       "level": "6",
       "commodity": "",
       "standards": [
+        "EUDR",
         "PPWR"
       ],
-      "EUDR": false,
+      "EUDR": true,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -40969,10 +40972,9 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -40985,10 +40987,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41001,10 +41002,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41017,10 +41017,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41033,10 +41032,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41049,10 +41047,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41065,10 +41062,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41081,10 +41077,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41097,10 +41092,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41113,10 +41107,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41129,10 +41122,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41289,10 +41281,9 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41305,10 +41296,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41321,10 +41311,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41337,10 +41326,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41353,10 +41341,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41369,10 +41356,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41574,10 +41560,9 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41590,10 +41575,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41606,10 +41590,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41622,10 +41605,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41638,10 +41620,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41654,10 +41635,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41670,10 +41650,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41686,10 +41665,9 @@
       "level": "6",
       "commodity": "rubber",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41749,10 +41727,9 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41765,10 +41742,9 @@
       "level": "6",
       "commodity": "cattle",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41781,10 +41757,9 @@
       "level": "6",
       "commodity": "cattle",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41797,10 +41772,9 @@
       "level": "6",
       "commodity": "cattle",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41933,10 +41907,9 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41949,10 +41922,9 @@
       "level": "6",
       "commodity": "cattle",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41965,10 +41937,9 @@
       "level": "6",
       "commodity": "cattle",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41981,10 +41952,9 @@
       "level": "6",
       "commodity": "cattle",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -41997,10 +41967,9 @@
       "level": "6",
       "commodity": "cattle",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -42178,10 +42147,9 @@
       "level": "4",
       "commodity": "",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -42194,10 +42162,9 @@
       "level": "6",
       "commodity": "cattle",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -42210,10 +42177,9 @@
       "level": "6",
       "commodity": "cattle",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -42226,10 +42192,9 @@
       "level": "6",
       "commodity": "cattle",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -42242,10 +42207,9 @@
       "level": "6",
       "commodity": "cattle",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -42258,10 +42222,9 @@
       "level": "6",
       "commodity": "cattle",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -42274,10 +42237,9 @@
       "level": "6",
       "commodity": "cattle",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -43332,10 +43294,9 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -44378,11 +44339,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
         "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": true,
       "CBAM": false,
       "PPWR": true
@@ -44650,11 +44610,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
         "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": true,
       "CBAM": false,
       "PPWR": true
@@ -45226,11 +45185,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
         "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": true,
       "CBAM": false,
       "PPWR": true
@@ -45362,11 +45320,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
         "EUTR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": true,
       "CBAM": false,
       "PPWR": true
@@ -45429,10 +45386,9 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -45445,10 +45401,9 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -45461,10 +45416,9 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
@@ -45621,10 +45575,9 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
-        "EUDR",
         "PPWR"
       ],
-      "EUDR": true,
+      "EUDR": false,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
