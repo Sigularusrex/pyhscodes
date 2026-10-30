@@ -45416,9 +45416,10 @@
       "level": "6",
       "commodity": "wood",
       "standards": [
+        "EUDR",
         "PPWR"
       ],
-      "EUDR": false,
+      "EUDR": true,
       "EUTR": false,
       "CBAM": false,
       "PPWR": true
